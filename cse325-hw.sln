@@ -1,0 +1,82 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week01", "week01", "{D4176A17-D7E5-9C19-FD5F-8803B1692ECF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assignment-01_BuildDotNetWithCSharp", "assignment-01_BuildDotNetWithCSharp", "{7CEAD649-CC00-F88D-07D4-A94772030D00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-dotnet-files", "05-dotnet-files", "{A25C2A72-C76F-C9C1-53FA-60BCC47E2A38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilesApp", "week01\assignment-01_BuildDotNetWithCSharp\05-dotnet-files\FilesApp.csproj", "{9F502DC1-5319-EC65-157A-7FB7E7415809}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-build-web-api-aspnet-core", "06-build-web-api-aspnet-core", "{7486FC42-14DB-5F90-B822-6ABF2B61E3F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoPizza", "week01\assignment-01_BuildDotNetWithCSharp\06-build-web-api-aspnet-core\ContosoPizza.csproj", "{B1C04A41-289D-0395-2226-6F5A8CFF2930}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-dotnet-debug", "04-dotnet-debug", "{1592D1D3-94DB-F517-0216-2DC1D9EDF9D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebuggingApp", "week01\assignment-01_BuildDotNetWithCSharp\04-dotnet-debug\DebuggingApp.csproj", "{B77ACC90-9CC6-453A-F186-3B988C981BBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-dotnet-dependencies", "03-dotnet-dependencies", "{1E7C9324-62AA-864D-EC85-0072E8D1905D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependenciesApp", "week01\assignment-01_BuildDotNetWithCSharp\03-dotnet-dependencies\DependenciesApp.csproj", "{101EBBE0-A76A-DEDE-02E5-7053A73293A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-dotnet-introduction", "02-dotnet-introduction", "{A70F1380-E3E4-DAD3-133E-AE5C6B523B15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroToNet", "week01\assignment-01_BuildDotNetWithCSharp\02-dotnet-introduction\IntroToNet.csproj", "{E6B255C6-D13A-9C94-061E-2753F8C5B4B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-csharp-write-first", "week01\assignment-01_BuildDotNetWithCSharp\01-csharp-write-first\01-csharp-write-first.csproj", "{C2999955-E88D-C1D9-ABC7-D4853C716AA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F502DC1-5319-EC65-157A-7FB7E7415809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F502DC1-5319-EC65-157A-7FB7E7415809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F502DC1-5319-EC65-157A-7FB7E7415809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F502DC1-5319-EC65-157A-7FB7E7415809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1C04A41-289D-0395-2226-6F5A8CFF2930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1C04A41-289D-0395-2226-6F5A8CFF2930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1C04A41-289D-0395-2226-6F5A8CFF2930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1C04A41-289D-0395-2226-6F5A8CFF2930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B77ACC90-9CC6-453A-F186-3B988C981BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77ACC90-9CC6-453A-F186-3B988C981BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B77ACC90-9CC6-453A-F186-3B988C981BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77ACC90-9CC6-453A-F186-3B988C981BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101EBBE0-A76A-DEDE-02E5-7053A73293A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101EBBE0-A76A-DEDE-02E5-7053A73293A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101EBBE0-A76A-DEDE-02E5-7053A73293A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101EBBE0-A76A-DEDE-02E5-7053A73293A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6B255C6-D13A-9C94-061E-2753F8C5B4B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6B255C6-D13A-9C94-061E-2753F8C5B4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6B255C6-D13A-9C94-061E-2753F8C5B4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6B255C6-D13A-9C94-061E-2753F8C5B4B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2999955-E88D-C1D9-ABC7-D4853C716AA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2999955-E88D-C1D9-ABC7-D4853C716AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2999955-E88D-C1D9-ABC7-D4853C716AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2999955-E88D-C1D9-ABC7-D4853C716AA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7CEAD649-CC00-F88D-07D4-A94772030D00} = {D4176A17-D7E5-9C19-FD5F-8803B1692ECF}
+		{A25C2A72-C76F-C9C1-53FA-60BCC47E2A38} = {7CEAD649-CC00-F88D-07D4-A94772030D00}
+		{9F502DC1-5319-EC65-157A-7FB7E7415809} = {A25C2A72-C76F-C9C1-53FA-60BCC47E2A38}
+		{7486FC42-14DB-5F90-B822-6ABF2B61E3F5} = {7CEAD649-CC00-F88D-07D4-A94772030D00}
+		{B1C04A41-289D-0395-2226-6F5A8CFF2930} = {7486FC42-14DB-5F90-B822-6ABF2B61E3F5}
+		{1592D1D3-94DB-F517-0216-2DC1D9EDF9D0} = {7CEAD649-CC00-F88D-07D4-A94772030D00}
+		{B77ACC90-9CC6-453A-F186-3B988C981BBA} = {1592D1D3-94DB-F517-0216-2DC1D9EDF9D0}
+		{1E7C9324-62AA-864D-EC85-0072E8D1905D} = {7CEAD649-CC00-F88D-07D4-A94772030D00}
+		{101EBBE0-A76A-DEDE-02E5-7053A73293A1} = {1E7C9324-62AA-864D-EC85-0072E8D1905D}
+		{A70F1380-E3E4-DAD3-133E-AE5C6B523B15} = {7CEAD649-CC00-F88D-07D4-A94772030D00}
+		{E6B255C6-D13A-9C94-061E-2753F8C5B4B4} = {A70F1380-E3E4-DAD3-133E-AE5C6B523B15}
+		{C2999955-E88D-C1D9-ABC7-D4853C716AA4} = {7CEAD649-CC00-F88D-07D4-A94772030D00}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2557751E-4CF7-4835-850A-19D8853867C8}
+	EndGlobalSection
+EndGlobal

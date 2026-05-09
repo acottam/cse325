@@ -1,0 +1,56 @@
+@ContosoPizza_HostAddress = http://localhost:5238
+
+### GET all pizzas
+# Response: 200 OK
+# Body: [{"id":1,"name":"Classic Italian","isGlutenFree":false},{"id":2,"name":"Veggie","isGlutenFree":true},{"id":3,"name":"Pepperoni","isGlutenFree":false}]
+GET {{ContosoPizza_HostAddress}}/pizza/
+Accept: application/json
+
+###
+
+### GET a single pizza by Id
+# Response: 200 OK
+# Body: {"id":1,"name":"Classic Italian","isGlutenFree":false}
+GET {{ContosoPizza_HostAddress}}/pizza/1
+Accept: application/json
+
+###
+
+### GET a pizza that does not exist
+# Response: 404 Not Found
+GET {{ContosoPizza_HostAddress}}/pizza/99
+Accept: application/json
+
+###
+
+### POST - Create a new pizza
+# Response: 201 Created
+# Body: {"id":4,"name":"Hawaii","isGlutenFree":false}
+POST {{ContosoPizza_HostAddress}}/pizza/
+Content-Type: application/json
+
+{
+    "name": "Hawaii",
+    "isGlutenFree": false
+}
+
+###
+
+### PUT - Update an existing pizza
+# Response: 204 No Content
+PUT {{ContosoPizza_HostAddress}}/pizza/4
+Content-Type: application/json
+
+{
+    "id": 4,
+    "name": "Pepperoni Deluxe",
+    "isGlutenFree": false
+}
+
+###
+
+### DELETE - Remove a pizza
+# Response: 204 No Content
+DELETE {{ContosoPizza_HostAddress}}/pizza/4
+
+###
