@@ -91,7 +91,8 @@ void GenerateSalesSummaryReport(IEnumerable<string> salesFiles, string outputDir
         SalesData? data = JsonSerializer.Deserialize<SalesData>(salesJson);
         double fileTotal = data?.Total ?? 0;
         grandTotal += fileTotal;
-        details.Add($"  {Path.GetFileName(file)}: {fileTotal.ToString("C")}");
+        var relativePath = Path.GetRelativePath(storesDirectory, file);
+        details.Add($"  {relativePath}: {fileTotal.ToString("C")}");
     }
 
     sb.AppendLine($" Total Sales: {grandTotal.ToString("C")}");
