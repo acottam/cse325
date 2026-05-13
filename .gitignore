@@ -57,3 +57,5 @@ TestResult.xml
 nunit-*.xml
 MyFirstConsoleApp.sln
 .vscode/
+.DS_Store
+MyNewApp.sln
